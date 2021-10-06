@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T15:13:06.669Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="vx0vpbsp9e4led4f41u9" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T15:17:09.181Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="s5OWZaeUtmPMHFNRa2JQ" version="15.4.3" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="1956" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,11 +381,26 @@
         <mxCell id="8QjGCknOsjC02xYANgVm-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QjGCknOsjC02xYANgVm-59" target="8QjGCknOsjC02xYANgVm-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8QjGCknOsjC02xYANgVm-59" value="Deadlock" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1180" width="120" height="60" as="geometry" />
+        <mxCell id="8QjGCknOsjC02xYANgVm-68" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8QjGCknOsjC02xYANgVm-59" target="8QjGCknOsjC02xYANgVm-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8QjGCknOsjC02xYANgVm-62" value="Deadlock" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1320" width="120" height="60" as="geometry" />
+        <mxCell id="8QjGCknOsjC02xYANgVm-59" value="Deadlock" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QjGCknOsjC02xYANgVm-62" value="Mutual exclusion - only one thread can have exclusion access to share resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QjGCknOsjC02xYANgVm-64" value="Hold and wait - at least one thread is holding a resource and is waiting for another resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1380" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QjGCknOsjC02xYANgVm-65" value="Non preemptive allocation - A resource is released only after the thread is done using it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1440" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QjGCknOsjC02xYANgVm-66" value="Circular wait - A chain of at least two threads each one&amp;nbsp; holding one resource and waiting for another resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1500" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8QjGCknOsjC02xYANgVm-67" value="Enforce&amp;nbsp; a strict order on locking acquisition prevents deadlocks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1169" width="285" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
