@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T15:07:45.752Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="y0AiBFtwcYWaWG5mmkPn" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T15:13:50.001Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="5Z3aonAm9fzknyt8OvGd" version="15.4.3" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="1956" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -489,6 +489,9 @@
         <mxCell id="12GSZSamHGXfUHSNvfuX-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-29" target="12GSZSamHGXfUHSNvfuX-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-29" target="12GSZSamHGXfUHSNvfuX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-29" value="Condition variable" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="1110" y="-1240" width="120" height="60" as="geometry" />
         </mxCell>
@@ -515,6 +518,93 @@
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-39" value="&lt;br&gt;//&lt;br&gt;lock.lock();&lt;br&gt;try {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;username = userTextbox.getText();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;password = passwordTextbox.getText();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;condition.signal();&lt;br&gt;} finally {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;lock.unlock();&lt;br&gt;}&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="2010" y="-1515" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-41" target="12GSZSamHGXfUHSNvfuX-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-41" value="Functions" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1386" y="-1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-43" target="12GSZSamHGXfUHSNvfuX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-43" value="void await()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-45" value="unlock lock, wait until signalled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="-1700" width="274" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-47" target="12GSZSamHGXfUHSNvfuX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-47" value="long awaitNanos(long nanosTimeout)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-48" value="wait no longer than nanos timeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="-1790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-51" value="boolean await(long time, TimeUnit unit)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-1890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-55" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-53" target="12GSZSamHGXfUHSNvfuX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-53" value="boolean awaitUntil(Date deadline)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-54" value="wake up before the deadline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="-1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-59" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-57" target="12GSZSamHGXfUHSNvfuX-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-57" value="void signal()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-58" target="12GSZSamHGXfUHSNvfuX-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-58" value="wakes up a single thread, waiting on the condition variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="-2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-60" target="12GSZSamHGXfUHSNvfuX-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-60" value="&amp;nbsp;A thread that wakes up has to acquire the lock associated with the condition variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1986" y="-2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-62" value="If currently no thread is waiting on the condition variable, doesn&#39;t do anything" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2186" y="-2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-66" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-64" target="12GSZSamHGXfUHSNvfuX-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-64" value="void signalAll()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="-2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-68" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-65" target="12GSZSamHGXfUHSNvfuX-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-65" value="Broadcast a signal to all threads waiting on the condition variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1786" y="-2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-67" value="Doesn&#39;t need to know how many thread is waiting on the condition variable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1986" y="-2190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
