@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T15:33:11.800Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="qOvhZn7T9WJaMxBaczCe" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T15:36:33.959Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="IVqAWm3HN-wSW1CuYfAs" version="15.4.3" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="2783" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -682,28 +682,28 @@
           <mxGeometry x="354" y="-370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-94" value="Work just like synchronized keyword" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-370" width="216" height="60" as="geometry" />
+          <mxGeometry x="670" y="-370" width="216" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-96" value="Request explicit locking and unlocking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-310" width="216" height="60" as="geometry" />
+          <mxGeometry x="670" y="-310" width="216" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-101" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-98" target="12GSZSamHGXfUHSNvfuX-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-98" value="Util methods" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="354" y="-610" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="-610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-100" value="getQueuedThreads()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-670" width="156" height="60" as="geometry" />
+          <mxGeometry x="810" y="-670" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-102" value="getOwner()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-610" width="156" height="60" as="geometry" />
+          <mxGeometry x="810" y="-610" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-103" value="isHeldByCurrentThread()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-550" width="156" height="60" as="geometry" />
+          <mxGeometry x="810" y="-550" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-104" value="isLocked()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="554" y="-490" width="156" height="60" as="geometry" />
+          <mxGeometry x="810" y="-490" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-108" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-105" target="12GSZSamHGXfUHSNvfuX-107">
           <mxGeometry relative="1" as="geometry" />
@@ -713,6 +713,21 @@
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-107" value="new ReentrantLock(true)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="154" y="-510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-111" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-109" target="12GSZSamHGXfUHSNvfuX-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-113" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-109" target="12GSZSamHGXfUHSNvfuX-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-109" value="Interruptibly" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-110" value="while(true) {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;lock.lock();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;//Cant move to clean up code&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;if (Thread.currentThread().isInterrupted()) {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;cleanUpAndExit();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-1070" width="294" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-112" value="while(true) {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;lock.lockInterruptibly();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;//Can move to clean up code&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;if (Thread.currentThread().isInterrupted()) {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;cleanUpAndExit();&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-840" width="294" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
