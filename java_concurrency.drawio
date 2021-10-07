@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T15:32:04.716Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="_QQgkdM2bT_vRGZSe32U" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T15:32:35.584Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="SfJxJSELly8mZt96j3k5" version="15.4.3" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="2783" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -675,6 +675,9 @@
         <mxCell id="12GSZSamHGXfUHSNvfuX-99" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-92" target="12GSZSamHGXfUHSNvfuX-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-106" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-92" target="12GSZSamHGXfUHSNvfuX-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-92" value="ReentrantLock" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="354" y="-370" width="120" height="60" as="geometry" />
         </mxCell>
@@ -701,6 +704,15 @@
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-104" value="isLocked()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="554" y="-490" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-108" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12GSZSamHGXfUHSNvfuX-105" target="12GSZSamHGXfUHSNvfuX-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-105" value="Fairness" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="154" y="-370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12GSZSamHGXfUHSNvfuX-107" value="new ReentrantLock(true)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="-510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
