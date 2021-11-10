@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T13:59:05.616Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="cbCoAPa4obNj1jmjCxbU" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T14:13:33.789Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WsZxsTIqVutEO53qarRe" version="15.6.8" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="2783" dy="2982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,6 +26,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-93" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ih0MxeRuf-zjSA7udGjn-1" target="12GSZSamHGXfUHSNvfuX-92" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ih0MxeRuf-zjSA7udGjn-1" target="8wmp2OvwYDWUjcywUx13-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ih0MxeRuf-zjSA7udGjn-1" target="8wmp2OvwYDWUjcywUx13-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ih0MxeRuf-zjSA7udGjn-1" value="Concurrency" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -764,6 +770,21 @@
         </mxCell>
         <mxCell id="12GSZSamHGXfUHSNvfuX-126" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ReentrantReadWriteLock lock = new ReentrantReadWriteLock();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Lock readLock = lock.readLock();&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Lock writeLock = lock.writeLock();&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="536" y="-1169" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-2" value="Is a condition that more than two threads are making progress" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="190" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8wmp2OvwYDWUjcywUx13-4" target="8wmp2OvwYDWUjcywUx13-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-4" value="Parralelism" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-5" value="Is a condition that more than two threads are running simultaneously" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8wmp2OvwYDWUjcywUx13-7" value="Generalized form of Parralelism" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="-166" y="270" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
