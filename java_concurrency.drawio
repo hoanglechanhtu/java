@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T09:17:00.783Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RicvQW5NGg7n5bTLyHs-" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T09:19:07.565Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YA_NyAIBuvLzrbXzB-U3" version="15.7.2" type="github">
   <diagram id="oZy7wKbEqz0-zu5jRp38" name="Page-1">
     <mxGraphModel dx="3498" dy="3247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -917,6 +917,9 @@
         </mxCell>
         <mxCell id="wDz9DCjWHTWmNRQf-t1x-28" value="Can coordinate a variable number of threads, which can set at runtime" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1386" y="490" width="264" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wDz9DCjWHTWmNRQf-t1x-32" value="With count equal 0 or 1 -&amp;gt; mutexes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1386" y="-70" width="254" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
